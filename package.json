@@ -1,0 +1,26 @@
+{
+	"name": "lodash-mini",
+	"version": "1.0.0",
+	"description": "⚙ lodash的mini版本",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"test:ui": "vitest --ui",
+		"coverage": "vitest run --coverage"
+	},
+	"devDependencies": {
+		"@vitest/ui": "^0.18.0",
+		"vitest": "^0.18.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cuiyiming1998/lodash-mini.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cuiyiming1998/lodash-mini/issues"
+	},
+	"homepage": "https://github.com/cuiyiming1998/lodash-mini#readme"
+}
