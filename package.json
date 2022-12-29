@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "commit": "git add . && cz-customizable"
   },
   "devDependencies": {
     "@vitest/ui": "^0.18.0",
@@ -14,7 +15,12 @@
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.1",
+    "commitlint": "^17.3.0",
+    "cz-customizable": "^7.0.0",
+    "commitlint-config-cz": "^0.13.3",
+    "commitlint-config-git-commit-emoji": "^1.0.0",
+    "husky": "^8.0.2"
   },
   "repository": {
     "type": "git",
