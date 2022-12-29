@@ -7,7 +7,8 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
-    "commit": "git add . && cz-customizable"
+    "commit": "git add . && cz-customizable",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx --fix --quiet"
   },
   "devDependencies": {
     "@vitest/ui": "^0.18.0",
