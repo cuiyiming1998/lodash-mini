@@ -1,5 +1,3 @@
-import { isArray } from '../../shared'
-
 /**
  * description
  * 创建一个具有唯一array值的数组，每个值不包含在其他给定的数组中。
@@ -16,12 +14,3 @@ import { isArray } from '../../shared'
  * return => [3, 1]
  *
  */
-export const difference = (arr1, arr2) => {
-	if (!isArray(arr1, arr2)) {
-		return []
-	}
-	const arr = [arr1, arr2]
-	return arr.reduce((prev, curr) => {
-		return prev.filter((i) => !curr.includes(i))
-	})
-}

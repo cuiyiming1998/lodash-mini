@@ -11,10 +11,10 @@
  * return => [[3, 5]]
  *
  */
-export const compact = array => {
+export const compact = (array) => {
 	if (!Array.isArray(array)) {
 		return []
 	}
-  // 强转一下 如果不是false就不是假值
-	return array.filter(item => !!item)
+	// 强转一下 如果不是false就不是假值
+	return array.filter((item) => !!item)
 }
