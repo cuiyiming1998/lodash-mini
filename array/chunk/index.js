@@ -13,24 +13,24 @@
  *
  */
 export const chunk = (array, size = 1) => {
-	// 判断传入的array是不是数组, 不是就返回[]
-	if (!Array.isArray(array)) {
-		return []
-	}
+  // 判断传入的array是不是数组, 不是就返回[]
+  if (!Array.isArray(array)) {
+    return []
+  }
 
-	const generateArr = (arr, item, index) => {
-		// 如果index % size === 0
-		// 说明前面已经分割完了
-		// 当前的item应该属于下一个元素
-		// 否则在最后一个元素中添加item
-		const i =
-			0 === index % size
-				? [...arr, [item]]
-				: [...arr.slice(0, -1), [...arr.slice(-1)[0], item]]
-		return i
-	}
+  const generateArr = (arr, item, index) => {
+    // 如果index % size === 0
+    // 说明前面已经分割完了
+    // 当前的item应该属于下一个元素
+    // 否则在最后一个元素中添加item
+    const i =
+      0 === index % size
+        ? [...arr, [item]]
+        : [...arr.slice(0, -1), [...arr.slice(-1)[0], item]]
+    return i
+  }
 
-	const arr = array.reduce(generateArr, [])
+  const arr = array.reduce(generateArr, [])
 
-	return arr
+  return arr
 }
