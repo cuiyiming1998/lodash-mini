@@ -23,7 +23,7 @@ export function differenceBy(array, values, iteratee) {
     const v = values.map(i => iteratee(i))
     array.map(i => {
       const item = iteratee(i)
-      if (v.includes[item]) {
+      if (!v.includes(item)) {
         result.push(i)
       }
     })
