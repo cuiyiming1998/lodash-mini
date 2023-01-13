@@ -10,3 +10,6 @@
 - [x] compact
 - [x] difference
 - [x] differenceBy
+- [x] last
+- [x] drop
+- [x] dropRight
