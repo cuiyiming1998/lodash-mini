@@ -24,6 +24,7 @@
       "error",
       "never"
     ],
-    "no-extra-boolean-cast": "off"
+    "no-extra-boolean-cast": "off",
+    "no-unused-vars": "warn"
   }
 }

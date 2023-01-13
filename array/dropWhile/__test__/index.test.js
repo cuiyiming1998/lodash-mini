@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { dropWhile } from '../index'
 
-describe('drop', () => {
+describe('dropWhile', () => {
   const array = [1, 2, 3]
   it('happy path', () => {
     const res = dropWhile(array, num => num > 1)

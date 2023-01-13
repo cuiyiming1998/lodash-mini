@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { dropRight } from '../index'
 
-describe('drop', () => {
+describe('dropRight', () => {
   const array = [1, 2, 3]
   it('happy path', () => {
     const res = dropRight(array, 2)
