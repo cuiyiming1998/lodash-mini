@@ -23,6 +23,7 @@
     "semi": [
       "error",
       "never"
-    ]
+    ],
+    "no-extra-boolean-cast": "off"
   }
 }

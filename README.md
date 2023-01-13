@@ -13,3 +13,4 @@
 - [x] last
 - [x] drop
 - [x] dropRight
+- [x] dropWhile
